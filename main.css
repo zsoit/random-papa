@@ -14,14 +14,16 @@ img {
 }
 
 input {
-    color: white;
-    background-color: coral;
+    color: black;
+    background-color: #E2AD38;
     padding: 10px;
     font-size: 25px;
+    font-weight: bold;
 }
 
 input:hover {
-    color: gold;
+    color: #E2AD38;
+    background-color: black;
     cursor: pointer;
 }
 
@@ -32,7 +34,7 @@ a:visited {
 }
 
 a:hover {
-    color: red
+    color: #E2AD38;
 }
 
 audio {
@@ -44,5 +46,13 @@ fieldset {
 }
 
 legend {
-    padding: 10px;
+    padding: 6px;
+}
+
+h1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    color: white;
+    background-color: #2e3233;
 }

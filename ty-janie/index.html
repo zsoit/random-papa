@@ -12,6 +12,7 @@
     <link rel="image_src" href="https://myzsoit.pl/random-papa/app/ICON.png" />
     <meta property="og:image" content="https://myzsoit.pl/random-papa/app/ICON.png" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 
     <style>
         body {
@@ -27,14 +28,14 @@
 
     <fieldset>
 
-        <legend>
-            <h1>Random Papa na dziś: </h1>
+        <legend class="logo">
+            <h1> <img src="../app/ICON.png" style="float: left; padding: 4px;" width="30px"> <span style="color: #E2AD38;"> Random</span>Papa <span style="font-family: 'Caveat', cursive; font-weight: lighter; color:#ffa3a3 ;">meme</span></h1>
         </legend>
 
 
         <p> <a href="../">home</a> > Ty Janie Mixtape </p>
 
-        <audio id="audio" src="../app/jeszcze-jak.mp3 " autoplay="true"></audio>
+        <audio id="audio" src="../app/mp3/jeszcze-jak.mp3 " autoplay="true"></audio>
 
 
         <input class="btn__refresh" type="button" value="Wylosuj swojego papieża" onClick="window.location.reload();">
@@ -62,8 +63,12 @@
         <p>&nbsp;</p>
 
         <hr>
+
         <center>
-            <p>&copy 2137 Random-Papa sp. z o.o. </p>
+            <footer>
+                <p>&copy 2137 Random-Papa sp. z o.o. </p>
+                <img src="../app/footer.png" width="100px">
+            </footer>
         </center>
 
     </fieldset>
