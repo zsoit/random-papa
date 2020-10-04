@@ -9,17 +9,21 @@ const random_images_array = [
 
     'jan (40).jpg', 'jan (41).jpg', 'jan (42).jpg', 'jan (43).jpg', 'jan (44).jpg', 'jan (45).jpg', 'jan (46).jpg', 'jan (47).jpg', 'jan (48).jpg', 'jan (49).jpg',
 
-    'jan (50).jpg', 'jan (51).jpg', 'jan (52).jpg', 'jan (53).jpg', 'jan (54).jpg', 'jan (55).jpg', 'jan (56).jpg',
+    'jan (50).jpg', 'jan (51).jpg', 'jan (52).jpg', 'jan (53).jpg', 'jan (54).jpg', 'jan (55).jpg', 'jan (56).jpg', 'jan (57).jpg', 'jan (58).jpg', 'jan (59).jpg',
 
-    'jan (1).jfif', 'jan (2).jfif', 'jan (3).jfif', 'jan (4).jfif', 'jan (5).jfif', 'jan (6).jfif', 'jan (7).jfif', 'jan (8).jfif', 'jan (9).jfif',
+    'jan (60).jpg', 'jan (61).jpg', 'jan (62).jpg', 'jan (63).jpg', 'jan (64).jpg', 'jan (65).jpg', 'jan (66).jpg', 'jan (67).jpg', 'jan (68).jpg', 'jan (69).jpg',
 
-    'jan (10).jfif', 'jan (11).jfif', 'jan (12).jfif', 'jan (13).jfif',
+    'jan (70).jpg', 'jan (71).jpg', 'jan (72).jpg', 'jan (73).jpg', 'jan (74).jpg', 'jan (75).jpg', 'jan (76).jpg', 'jan (77).jpg', 'jan (78).jpg', 
+
+    'jan (1).png'
+
+
 
 
 ];
 
 function getRandomPapa(imgAr, path) {
-    path = path || 'ty-janie-img/';
+    path = path || 'podziemia-img/';
     const num = Math.floor(Math.random() * imgAr.length);
     const img = imgAr[num];
     const imgStr = '<img src="' + path + img + '" alt = "">';
