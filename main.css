@@ -62,3 +62,7 @@ h2 {
     color: black;
     background-color: #E2AD38;
 }
+
+.info {
+    max-width: 300px;
+}
